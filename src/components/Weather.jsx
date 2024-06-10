@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Emoji from './Emoji';
 import WeatherInfo from './WeatherInfo';
+import { REACT_APP_WEATHER_API_KEY } from '../../Keys';
 
-const weatherAPIKey = "e830c866ce124b6013328c45c1aaed1a";
+const weatherAPIKey = REACT_APP_WEATHER_API_KEY;
 const cities = [
     "London",
     "New York",
