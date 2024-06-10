@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: hsl(260, 53%, 90%);
+}
+
+.navbar {
+  background-color: hsl(162, 61%, 78%);
+  border: 2px solid hsl(0, 0%, 0%);
+}
+
+.page-header {
+  margin-block-end: 15px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .full-width {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+}
+
+.pod {
+  padding: 15px;
+  background-color: hsl(261, 50%, 60%);
+  border: 2px solid hsl(0, 0%, 0%);
+  border-radius: 40px;
+  min-height: 170px;
+}
+
